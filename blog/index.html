@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Use a meta tag to designate yourself as the author of the page -->
+        <meta name="Jordan Rickel" content="John Durham">
+            <!-- Give your page a title. -->
+        <title>Skills Check 7 Blogs</title>          
+            <!-- Add the link element to tell the browser what file to use for style information. -->
+        <style>
+            @font-face {
+                font-family:lato;
+                src: url(../blog/fonts/sans-serif/lato-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            @font-face {
+                font-family:montserrat;
+                src: url(../blog/fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            @font-face {
+                font-family:opensans;
+                src: url(../blog/fonts/sans-serif/opensans-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            @font-face {
+                font-family:roboto;
+                src: url(../blog/fonts/sans-serif/roboto-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            @font-face {
+                font-family:josefinslab;
+                src: url(../blog/fonts/serif/josefinslab-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            @font-face {
+                font-family:robotoslab;
+                src: url(../blog/fonts/serif/robotoslab-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            @font-face {
+                font-family:rozhaone;
+                src: url(../blog/fonts/serif/rozhaone-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            @font-face {
+                font-family:ultra;
+                src: url(../blog/fonts/serif/ultra-regular.ttf) format('truetype');
+                font-weight:normal;
+                font-style:normal;
+            }
+            
+            html{
+                font-size: 16px;
+                font-family: 'Montserrat', Arial, sans-serif;                
+            }
+            
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                padding: 1rem;
+            }
+            
+            .grid-item{
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 0.0625 solid rgba(0, 0, 0, 0.8);
+                padding: 1.2rem;
+                font-size: 1rem;   
+            }
+            
+            .item1 {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            
+            body{
+                max-width: 90%;
+                margin: auto;
+            }
+            
+            header{
+                border-bottom-style: solid;
+                border-bottom-width: 0.125rem;
+                border-bottom-color: black;
+            }
+            
+            h1{
+                font-size: 4rem;
+                margin: 0;
+                letter-spacing: 0.25rem;
+                color: black;
+                text-shadow: 0.09375rem 0.09375rem 0.09375rem #000;
+                font-family: 'robotoslab', Garamond, serif;
+                text-align: center;                
+            }
+            
+            h1.bigbold{
+                font-family: 'ultra', Garamond, serif;
+                color: cornsilk;
+                border-style: solid;
+                border-color: firebrick;
+                border-width: 0.125;
+                background-color: firebrick
+                text-shadow: none;
+                border-top-right-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+                
+            }
+            
+            h2{
+                border-top-style: solid;
+                border-top-width: 0.125rem;
+                border-top-color: black;
+                font-family: 'lato', Arial, sans-serif;               
+            }
+            
+            h3{
+                
+            }
+            
+            p{
+                font-family: 'Montserrat', Arial, sans-serif;                
+            }
+            
+            figure.fig-1{
+                border-bottom-style: solid;
+                border-bottom-width: 0.125rem;
+                border-bottom-color: black;
+            }
+            
+            article{
+
+            }
+            
+            figcaption{
+                font-size: 0.75rem;
+            }
+            
+            a{
+                font-size: 1rem;   
+            }
+            
+            nav {
+                padding-left: 0;
+                margin-top: 0.25rem;
+                margin-left: 2rem;
+                display: inline-block;
+                color: #33658A;
+            }
+            
+            nav a {
+                outline: none;
+                text-decoration: none;
+                padding: 0rem;
+                text-align-last: center;
+                font-size: 1.125rem;
+                margin-bottom: 1.5rem; 
+                width: 100%;    
+                line-height: 3;
+            }
+            
+            nav a:focus,
+            nav a:hover {
+                background-color: #33658A;
+                color: #FFF;
+            }
+            
+            nav a:active {
+                background-color: #000;
+                color: #FFF;
+            }
+            
+            a{
+                outline: none;
+                text-decoration: none;
+                color: gray;
+            }
+            
+            aside{
+ 
+            }
+            
+            img{
+                max-width: 100%;
+                height: auto;   
+            }
+            section.sizechange{
+                width: 50%;
+            }
+            .button {
+                background-color: cornflowerblue;
+                border: none;
+                border-radius: 0.5rem;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                font-family: 'ultra', Garamond, serif;
+                display: inline-block;
+                font-size: 2rem;
+                margin: 0.5rem 0.5rem;
+                cursor: pointer;
+}
+        </style>        
+    </head>
+    <body>
+        <header>
+            <!-- Add a level 1 heading to display three words. Use a span element to highlight the second word. Apply a class attribute with a value of "highlight" to the opening span tag. -->
+            <h1>Tofu</h1> <h1 class="bigbold">CHARCOAL</h1> <h1>Unicorns</h1>
+            
+        </header>   
+        <!-- Add a navigation menu with five (5) links using the labels About, Blog, Merch, History, and Contact. Use the "#" symbol for your href values. -->
+        <nav>
+            <a href="#">About </a>
+            <a href="#">Blog</a>
+            <a href="#">Merch</a>
+            <a href="#">History</a>
+            <a href="#">Contact</a>
+        </nav>        
+        <main>
+            <div class="grid-container">
+                <div class="item1">
+                <!-- Add a level 2 heading -->
+                <h2>Chic Narwhal Waistcoat</h2>
+                <!-- Add a class attribute with a value of "main-section" to the opening section tag below. -->  
+                <section>
+                    <article>
+                        <!-- Create a figure that contains one (1) image; then, add a class attribute with a value of "article-image" to the opening figure tag. -->
+                        <figure>
+                            <img src="images/stag.jpg" alt="Building with an image of a dude over it">  
+                        </figure>
+                        <!-- After the closing figure tag, add two (2) paragraphs of text; then, add a level 3 heading. -->
+                        <p>
+                            I'm baby glossier tofu neutra flannel next level irony. Aesthetic four dollar toast freegan pour-over readymade truffaut tilde taiyaki bitters snackwave yuccie iPhone plaid. Kickstarter activated charcoal DIY intelligentsia viral. Selvage direct trade pitchfork woke chicharrones typewriter affogato tofu blog. Shaman chillwave vexillologist, kitsch mustache lumbersexual you probably haven't heard of them hella tumeric bespoke mixtape occupy. Mixtape vape pour-over vice, taiyaki put a bird on it vexillologist dreamcatcher plaid fixie edison bulb.
+                        </p>     
+                        <p>    
+                            Quinoa poutine glossier helvetica truffaut selvage dreamcatcher humblebrag DIY succulents tote bag vinyl hell of chia wayfarers. Sartorial chartreuse green juice biodiesel leggings pabst seitan. Fashion axe unicorn chia lo-fi, activated charcoal four loko craft beer cornhole williamsburg. Live-edge affogato marfa activated charcoal. Semiotics flexitarian stumptown echo park.   
+                        </p>                    
+                        <h3>Pickled Mustache</h3>
+                        <!-- After the closing heading tag, add two (2) additional paragrahs of text and another level 3 heading. -->
+                        <p>
+                            Offal pickled mustache, organic ennui vegan live-edge actually. Coloring book godard fam, normcore mumblecore cloud bread vexillologist marfa flexitarian. Trust fund ugh craft beer franzen DIY vinyl art party VHS lo-fi messenger bag hell of stumptown lyft. Dreamcatcher offal aesthetic enamel pin venmo freegan post-ironic fashion axe.
+                        </p>    
+                        <p>
+                            Stumptown selvage helvetica unicorn, pickled affogato wayfarers aesthetic pork belly pour-over la croix ethical fixie raclette neutra. Four dollar toast hot chicken skateboard, woke iPhone 8-bit try-hard tumblr chambray vegan cray YOLO chicharrones. Irony trust fund pop-up, glossier you probably haven't heard of them master cleanse tattooed. Pinterest banjo selvage, cornhole messenger bag meggings authentic VHS dreamcatcher pork belly fashion axe forage humblebrag kitsch. Humblebrag tumblr 90's artisan waistcoat messenger bag chambray put a bird on it cornhole jean shorts whatever. Keffiyeh pabst XOXO, cred ennui PBR and B typewriter wolf.
+                        </p>                    
+                        <h3>Jean Shorts</h3>
+                        <!-- After the closing heading tag, add three (3) paragraphs of text. -->
+                        <p>
+                            I'm baby jean shorts farm-to-table butcher af pok pok pitchfork. Mustache wolf salvia leggings +1 keytar umami VHS messenger bag williamsburg franzen. Man braid beard PBR and B adaptogen, echo park humblebrag pabst green juice fingerstache cornhole unicorn selvage woke. Waistcoat readymade kinfolk hashtag kogi tacos cornhole humblebrag meditation before they sold out meh. Next level authentic beard, woke hell of readymade pitchfork. Vinyl post-ironic salvia art party, chillwave actually synth. Small batch kitsch hexagon, hashtag pug celiac paleo pabst meh try-hard trust fund.
+                        </p>    
+                        <p>    
+                            IPhone crucifix tumblr viral, succulents twee semiotics farm-to-table chillwave you probably haven't heard of them locavore gastropub. Vinyl try-hard venmo roof party cardigan. Forage flannel VHS gluten-free, fingerstache church-key tbh prism affogato cray 90's shoreditch umami humblebrag etsy. Austin jianbing pickled, man braid sartorial mumblecore disrupt artisan. Umami neutra DIY pork belly, asymmetrical try-hard bespoke aesthetic artisan bicycle rights ramps brooklyn +1.
+                        </p>    
+                        <p>    
+                            Stumptown jean shorts banjo +1 raw denim. Marfa wayfarers umami, shoreditch prism hashtag vinyl poke. Squid letterpress green juice YOLO next level. Umami vinyl biodiesel whatever health goth hot chicken blue bottle drinking vinegar tumeric.
+                        </p>
+                        <!-- Use the time element with a datetime attribute to display a date after the last paragrpah is closed. -->       
+                        <p><time datetime="November">10:00</time></p>
+                        <!-- Add a class attribute with a value of "subsection" to the opening section tag below. -->
+                <div>
+                    <section class="sizechange">
+                        <!-- Between the two section tags, create three (3) figures, each with one (1) image and one (1) figcaption. -->          
+                        <figure>
+                            <img src="images/eren-30s.jpg" alt="A lady">
+                                <figcaption>
+                                    A Lady
+                                </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img src="images/industrial-city-2.jpg" alt="Another lady">
+                                <figcaption>
+                                    Another Lady
+                                </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img src="images/in-nomino.jpg" alt="A dude reading a book">
+                                <figcaption>
+                                    A dude reading a book
+                                </figcaption>
+                        </figure>
+                    </section>
+                </div>
+                    <!-- Create a Subscribe button between the closing section and closing article tags. --> 
+                    <a href="#" class="button">Subscribe</a>
+                
+                </article>
+                </div>  
+                <div class="item2">
+                <aside>
+                    <!-- Add a level 3 heading, followed by an image and a paragraph. -->
+                    <h3>Bacon ipsum dolor amet biltong</h3>
+                        <figure class="fig-1">          
+                            <img src="images\industrial.jpg" alt="industrial lady">
+                            <figcaption>
+                                    Bacon ipsum dolor amet biltong est ham hock, id tenderloin ball tip lorem incididunt beef ribs ground round. Kevin pig aute hamburger burgdoggen cow. Sint voluptate non beef ribs strip steak sirloin ea meatloaf occaecat. Elit turkey tri-tip, pork chop id shank deserunt ad dolor voluptate meatloaf andouille pariatur.
+                            </figcaption>
+                        </figure>
+                    
+                    <!-- Add another level 3 heading, followed by an image and a paragraph. -->
+                    <h3>Jerky pork loin short ribs</h3>
+                        <figure class="fig-1">          
+                            <img src="images\routine.jpg" alt="Clothes">
+                            <figcaption>
+                                    Jerky pork loin short ribs, pig cupim cillum est tenderloin. Meatloaf reprehenderit fugiat, salami beef ribs dolore aliquip id tongue meatball. Nostrud jerky hamburger sint aliquip culpa adipisicing tenderloin velit in buffalo pastrami.
+                            </figcaption>
+                        </figure>                    
+                    
+                    <!-- You guesed it, add an additional level three heading, followed by an image and a paragraph -->
+                    <h3>biltong ut chislic eu exercitation</h3>
+                        <figure class="fig-1">          
+                            <img src="images\industrial-city.jpg" alt="City">
+                            <figcaption>
+                                    Bacon ipsum dolor amet andouille incididunt ut culpa adipisicing consequat pork loin ad filet mignon. Kielbasa biltong ut chislic eu exercitation. Lorem velit burgdoggen ut magna. Strip steak culpa t-bone venison nulla.
+                            </figcaption>
+                        </figure>                   
+                    
+                    <!-- Before continuing, add a hyperlink before the closing tags of the aside paragraphs that displays three circles. Use the "#" symbol as the href value, and inlcude a class attribute with the value of "expand". Note: The code to use for a cirle is:
+
+                        &#x26AB;  
+
+                    -->
+                </aside>
+                </div>
+            </section>
+        </div>
+        </main>
+        <footer>
+            <!-- Add a paragraph with the copyright and a link to an email address. --->
+            <p>&copy; 2020 <a href="http://Google.com">Sustainable Hotdogs</a></p>
+            
+            <!-- Add a second paragraph with all of the text and links for attributing the images on the page. Make sure to use the "ideal" attribution from Creative Commons. -->
+            <p><a href="http://Google.com">"Stag"</a>, <a href="http://Google.com">"Industrial"</a>, <a href="http://Google.com">"In Nomino"</a>, <a href="http://Google.com">"Industrial City"</a>, and <a href="http://Google.com">"Industrial City II"</a> by <a href="http://Google.com">Jordan Rickel</a> licensed under <a href="http://Google.com">CC BY-NC-SA 2.0</a></p>
+            
+        </footer>
+    </body>
+</html>
